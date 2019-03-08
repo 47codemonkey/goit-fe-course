@@ -1,0 +1,84 @@
+body {
+	max-width: 900px;
+	margin: 0 auto;
+	padding-top: 65px;
+	padding-bottom: 70px;
+}
+
+.navigation {
+	margin-bottom: 70px; 
+	text-align: center;
+	color: rgb(102, 102, 102);
+	font-family: 'Playfair Display';
+}
+
+ul  li{
+	list-style-type: none;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(102, 102, 102);
+	padding: 5px;
+}
+
+.color_menu {
+   text-decoration: none; 
+   color: rgb(3,169,244);
+}
+
+.menu {
+	margin-left: 80px;
+}
+
+.block_left, .block_right {
+	width: 420px;
+	display: inline-block;
+	color: rgb(102, 102, 102);
+	font-family: 'Playfair Display';
+}
+
+.block_left {
+	margin: 0 56px 100px 0;
+}
+
+.block_right {
+	margin: 0 0 100px 0;
+}
+
+.last_block {
+	margin-bottom: 55px;
+}
+
+.lifestyle, .photodiary {
+	font-family: 'Ubuntu';
+	color: rgb(180, 173, 158);
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+h2 {
+	margin: 30px 0px 40px 0;
+	font-size: 30px;
+}
+
+.f1, .f2, .f3, .f4, .f5, .f6 {
+	width: 420px;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.button {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 160px;
+	height: 60px;
+	background-color: rgb(255,255,255);
+	border: 1px solid rgb(0,0,0);
+	color: rgb(102, 102, 102);
+	font-family: 'Playfair Display';
+	font-size: 20px;
+}
