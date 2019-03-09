@@ -57,12 +57,9 @@ a {
 	display:block;
 }
 
-.last_menu {
-	margin-right: 0px;
-}
-
 .rainbow:hover {
-    color: rgb(3,169,244);
+	display: block;
+	color: rgb(3,169,244);
 }
 
 	   /* Основная часть */
@@ -107,7 +104,6 @@ h2 {
 	width: 420px;
 	font-size: 14px;
 	line-height: 1.5;
-	margin: 0px;
 	margin-bottom:20px;
 }
 
