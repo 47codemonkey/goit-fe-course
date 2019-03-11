@@ -19,8 +19,9 @@ body {
 }
 
 .container {
-  max-width: 1110px;
-  padding: 0 30px;
+  max-width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -60,6 +61,7 @@ body {
 }
 
 .site-nav-item a {
+  display: block;
   text-decoration: none;
   color: #0f0101;
   font-family: 'Open Sans', sans-serif;
@@ -105,6 +107,10 @@ section .section-title::after {
   width: 164px;
   height: 7px;
   background-color: #1abc9c;
+}
+
+.featured-products {
+  padding-bottom: 100px;
 }
 
 .products-list li {
@@ -167,7 +173,7 @@ section .section-title::after {
 .article-content {
   width: 347px;
   float: left;
-  padding-bottom: 82px;
+  margin-bottom: 82px;
 }
 
 .article-content:not(:nth-child(3n)) {
@@ -185,6 +191,7 @@ section .section-title::after {
   margin-bottom: 29px;
   color: #555252;
 }
+
 .article-title::after {
   content: " ";
   display: block;
@@ -204,7 +211,16 @@ section .section-title::after {
   font-weight: 400;
 }
 
-button{
+li {
+   list-style-type: none;
+}
+
+.blog {
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
   width: 160px;
   height: 51px;
   padding: 0;
@@ -219,6 +235,7 @@ button{
   border-radius: 3px;
   cursor: pointer;
 }
+
 button:focus {
   outline: none;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.39);
