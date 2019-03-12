@@ -1,11 +1,11 @@
-html{
-  box-sizing:border-box;
+html {
+  box-sizing: border-box;
 }
-  
+
 *,
 *::before,
 *::after {
-box-sizing: inherit;  
+  box-sizing: inherit;
 }
 
 img {
@@ -40,6 +40,7 @@ body {
   letter-spacing: -0.02em;
   text-transform: uppercase;
 }
+
 .logo a {
   color: #555252;
   text-decoration: none;
@@ -155,6 +156,8 @@ section .section-title::after {
 .product-name {
   float: left;
   margin: 0px;
+  padding-left: 15px;
+  line-height: 40px;
 }
 
 .product-price {
@@ -164,19 +167,23 @@ section .section-title::after {
   float: right;
   background: #ffffff71;
   text-align: center;
+  line-height: 2.3;
 }
 
 .products-list-item:hover .product-title {
   background-color: #1abc9c;
 }
 
+.article {
+  float: left;
+}
+
 .article-content {
   width: 347px;
-  float: left;
   margin-bottom: 82px;
 }
 
-.article-content:not(:nth-child(3n)) {
+.article:not(:nth-of-type(3n)) {
   margin-right: 30px;
 }
 
@@ -212,7 +219,7 @@ section .section-title::after {
 }
 
 li {
-   list-style-type: none;
+  list-style-type: none;
 }
 
 .blog {
