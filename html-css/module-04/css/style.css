@@ -44,6 +44,7 @@ body {
 .logo a {
   color: #555252;
   text-decoration: none;
+  display: block;
 
 }
 
@@ -194,7 +195,7 @@ section .section-title::after {
   letter-spacing: -0.02em;
   font-weight: 600;
   text-transform: capitalize;
-  margin-top: 15px;
+  margin: 0px;
   margin-bottom: 29px;
   color: #555252;
 }
@@ -220,6 +221,15 @@ section .section-title::after {
 
 li {
   list-style-type: none;
+}
+
+.img {
+  margin-bottom: 10px;
+}
+
+.fish {
+  margin: 0px;
+  margin-bottom: 10px;
 }
 
 .blog {
