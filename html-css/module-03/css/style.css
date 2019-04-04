@@ -1,0 +1,126 @@
+.wrapper {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Playfair Display', serif;
+}
+
+a:hover {
+    color: rgb(3, 169, 244);
+}
+
+.menu1,
+.menu2,
+.menu3,
+.menu4 {
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+
+.main-menu {
+    text-align: center;
+}
+
+.menu1 {
+    margin-right: 85px;
+}
+
+.menu2 {
+    margin-right: 85px;
+}
+
+.menu3 {
+    margin-right: 85px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(98, 98, 98);
+}
+
+article {
+    width: 420px;
+    display: inline-block;
+}
+
+ul {
+    padding-top: 75px;
+    padding-bottom: 100px;
+}
+
+.first {
+    margin-right: 56px;
+    margin-bottom: 130px;
+}
+
+.second {
+    margin-bottom: 130px;
+}
+
+.third {
+    margin-right: 56px;
+    margin-bottom: 130px;
+}
+
+.fourth {
+    margin-bottom: 130px;
+}
+
+.fifth {
+    margin-right: 56px;
+    margin-bottom: 55px;
+}
+
+.sixth {
+    margin-bottom: 55px;
+}
+
+.life {
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 35px;
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+
+.dream,
+.text {
+    color: rgb(98, 98, 98);
+}
+
+.dream {
+    font-size: 30px;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 14px;
+
+    line-height: 24px;
+}
+
+.pic {
+    margin-bottom: 35px;
+}
+
+.text-last {
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.button {
+    width: 165px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid black;
+    color: rgb(98, 98, 98);
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 65px;
+}
