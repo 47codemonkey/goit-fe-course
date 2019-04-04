@@ -1,132 +1,126 @@
-html{
-    box-sizing:border-box;
-}
-
-*,
-*::before,
-*::after{
-    box-sizing: inherit;
-}
-img {
-   display: block;
-   max-width: 100%;
-   height: auto;
-}
-
 .wrapper {
-	max-width: 900px;
-	margin: 0 auto;
-	padding-top: 65px;
-	padding-bottom: 70px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Playfair Display', serif;
 }
 
-       /* МЕНЮ */
-
-.header {
-	padding-top: 10px;
-	padding-bottom: 75px; 
+a:hover {
+    color: rgb(3, 169, 244);
 }
 
-.navigation { 
-	text-align: center;
-	color: rgb(102, 102, 102);
-	font-family: 'Playfair Display';	
+.menu1,
+.menu2,
+.menu3,
+.menu4 {
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 24px;
 }
 
-.list li {
-	list-style-type: none;
-	display: inline-block;
-	text-transform: uppercase;
-	font-size: 14px;
-	margin-right: 75px;
-}	
-
-.list li:last-child {
-	margin-right: 0;
+.main-menu {
+    text-align: center;
 }
 
-
-
-.list {
-	margin: 0px;
-	padding: 0px;
-	font-size: 0px;
+.menu1 {
+    margin-right: 85px;
 }
-	
+
+.menu2 {
+    margin-right: 85px;
+}
+
+.menu3 {
+    margin-right: 85px;
+}
+
 a {
-	text-decoration: none;
-	color: rgb(102, 102, 102);
-	padding: 5px;
-}
- 
-.menu {
-	display:block;
+    text-decoration: none;
+    color: rgb(98, 98, 98);
 }
 
-.rainbow:hover {
-	display: block;
-	color: rgb(3,169,244);
+article {
+    width: 420px;
+    display: inline-block;
 }
 
-	   /* Основная часть */
-	   
-
-.block_left, .block_right {
-	width: 420px;
-	display: inline-block;
-	color: rgb(102, 102, 102);
-	font-family: 'Playfair Display'; 
+ul {
+    padding-top: 75px;
+    padding-bottom: 100px;
 }
 
-.block_left {
-	margin: 0 56px 100px 0;
+.first {
+    margin-right: 56px;
+    margin-bottom: 130px;
 }
 
-.block_right {
-	margin: 0 0 100px 0;
+.second {
+    margin-bottom: 130px;
 }
 
-.last_block {
-	margin-bottom: 55px;
+.third {
+    margin-right: 56px;
+    margin-bottom: 130px;
 }
 
-.lifestyle, .photodiary {
-	font-family: 'Ubuntu';
-	color: rgb(180, 173, 158);
-	font-size: 14px;
-	text-transform: uppercase;
-	margin: 0px;
-	margin-bottom:20px;
+.fourth {
+    margin-bottom: 130px;
 }
 
-h2 {
-	margin: 30px 0px 40px 0;
-	font-size: 30px;
-	margin: 0px;
-	margin-bottom:20px;
+.fifth {
+    margin-right: 56px;
+    margin-bottom: 55px;
 }
 
-.fish {
-	font-size: 14px;
-	line-height: 1.5;
-	margin: 0px;
+.sixth {
+    margin-bottom: 55px;
 }
 
-.image {
-	margin-bottom:20px;
+.life {
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 35px;
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+    font-size: 14px;
+
 }
 
-          /* Конец */
+.dream,
+.text {
+    color: rgb(98, 98, 98);
+}
+
+.dream {
+    font-size: 30px;
+    margin-bottom: 35px;
+    font-weight: bold;
+}
+
+.text {
+    font-size: 14px;
+
+    line-height: 24px;
+}
+
+.pic {
+    margin-bottom: 35px;
+}
+
+.text-last {
+    color: rgb(98, 98, 98);
+    font-size: 14px;
+    line-height: 24px;
+}
 
 .button {
-	display: block;
-	margin: 0 auto;
-	padding: 0;
-	width: 160px;
-	height: 60px;
-	background-color: rgb(255,255,255);
-	border: 1px solid rgb(0,0,0);
-	color: rgb(102, 102, 102);
-	font-family: 'Playfair Display';
-	font-size: 20px;
+    width: 165px;
+    height: 60px;
+    background-color: white;
+    border: 1px solid black;
+    color: rgb(98, 98, 98);
+    padding: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 65px;
 }
