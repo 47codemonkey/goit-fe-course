@@ -15,7 +15,6 @@ a:hover {
 .menu4 {
     display: inline-block;
     text-transform: uppercase;
-    line-height: 24px;
 }
 
 .main-menu {
@@ -39,11 +38,6 @@ a {
     color: rgb(98, 98, 98);
 }
 
-article {
-    width: 420px;
-    display: inline-block;
-}
-
 ul {
     padding-top: 75px;
     padding-bottom: 100px;
@@ -52,28 +46,46 @@ ul {
 .first {
     margin-right: 56px;
     margin-bottom: 130px;
+    width: 420px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .second {
     margin-bottom: 130px;
+    width: 420px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .third {
     margin-right: 56px;
     margin-bottom: 130px;
+    width: 420px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .fourth {
     margin-bottom: 130px;
+    width: 420px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .fifth {
     margin-right: 56px;
     margin-bottom: 55px;
+    width: 420px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .sixth {
     margin-bottom: 55px;
+    width: 420px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 .life {
@@ -98,8 +110,7 @@ ul {
 
 .text {
     font-size: 14px;
-
-    line-height: 24px;
+    line-height: 1.714;
 }
 
 .pic {
@@ -109,7 +120,7 @@ ul {
 .text-last {
     color: rgb(98, 98, 98);
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.714;
 }
 
 .button {
