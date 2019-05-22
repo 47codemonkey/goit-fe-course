@@ -2,21 +2,16 @@
     margin: 0 auto;
     width: 1100px;
     font-family: 'Roboto', sans-serif;
-    margin-top: 10px;
+    padding-top: 10px;
 }
 
-.wrapper:after {
-    content: " ";
-    display: table;
-    clear: both;
-}
 
 .main {
     height: 1605px;
 }
 
 
-/*header/nav*/
+/*HEADER-NAV*/
 
 
 .header {
@@ -50,6 +45,12 @@
     font-size: 14px;
 }
 
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    }
+
 .link {
     text-decoration: none;
     color: rgb(0,0,0);
@@ -72,11 +73,11 @@
 }
 
 
-/*section 1*/
+/*SECTION 1*/
 
 
 .products {
-    height: 840px;
+    height: 833px;
 }
 
 .section-title {
@@ -90,15 +91,20 @@
     color: rgb(96, 94, 94);
 }
 
-.line {
-    border-bottom: 7px solid rgb(26, 188, 156);
-    width: 165px;
-    margin: auto;
-    margin-bottom: 90px;
+.section-title::after {
+    content: "";
+    width: 164px;
+    height: 8px;   
+    display: block;
+    background-color:rgb(78,198,171);
+    margin: 0 auto;
+    margin-top: 30px;
+    border-radius: 1px;
 }
 
 .list {
     height: 668px;
+    margin-top: 90px;
 }
 
 .img {
@@ -177,16 +183,10 @@ li:hover .name {
 }
 
 
-/*section 2*/
+/*SECTION 2*/
 
 .news {
     height: 662px;
-}
-
-.lines {
-    border-bottom: 3px solid rgb(26, 188, 156);
-    width: 135px;
-    margin-bottom: 25px;
 }
 
 .article-content {
@@ -194,12 +194,14 @@ li:hover .name {
     height: 492px;
     float: left;
     margin-right: 25px;
+    margin-top: 90px;
 }
 
 .article-content-last {
     width: 350px;
     height: 492px;
     float: left;
+    margin-top: 90px;
 }
 
 .article-text {
@@ -220,6 +222,17 @@ li:hover .name {
     margin-bottom: 10px;
 }
 
+.article-title::after {
+    content: ""; 
+    width: 135px;
+    height: 4px;
+    margin-top: 14px;
+    margin-bottom: 25px;
+    display: block;
+    background-color:rgb(78,198,171);
+    border-radius: 1px;
+}
+
 .btn {
     background-color: rgb(26, 188, 156);
     width: 160px;
@@ -228,7 +241,7 @@ li:hover .name {
     border: 0px;
     border-radius: 2px;
     outline: none;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
     padding: 0;
     font-size: 16px;
 }
