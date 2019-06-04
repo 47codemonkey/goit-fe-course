@@ -95,15 +95,16 @@ body {
     top: 50%;
     transform: translateY(-50%);
     font-size: 70px;
-    background-color: transparent;
+    background-color: rgb(78, 155, 137);
     color: rgb(255, 255, 255);
     outline: none;
     z-index: 1;
+    opacity: 0.7;
 }
 
 .slider-cltr:hover {
     background-color: rgb(78, 155, 137);
-    opacity: 0.7;
+    opacity: 1;
 }
 
 .left {
