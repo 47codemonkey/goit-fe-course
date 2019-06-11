@@ -1,0 +1,235 @@
+/*HEADER*/
+
+.header {
+    width: 940px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 490px;
+}
+
+.logo-link {
+    font-size: 26px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(254, 209, 54);
+    height: 27px;
+    margin-top: 27px;
+    text-transform: capitalize;
+    font-family: 'Pinyon Script';
+}
+
+.site-nav {
+    height: 16px;
+    margin-top: 37px;
+}
+
+.link {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(34, 34, 34);
+    font-weight: bold;
+    transition: color 0.3s linear;
+}
+
+.link:hover {
+    color: rgb(254, 209, 54);
+    transform: scale(1.10);
+}
+
+/*SECTION 1*/
+
+.section-one {
+    height: 461px;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.section-one-name {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(34, 34, 34);
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+}
+
+.section-one-name-description {
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(51, 51, 51);
+    margin-bottom: 50px;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: none;
+    align-content: space-between;
+}
+
+.box {
+    width: 300px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.category {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: rgb(34, 34, 34);
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+}
+
+.text {
+    text-align: center;
+    color: rgb(137, 137, 137);
+    font-family: 'Roboto Slab';
+    font-style: normal;
+    font-weight: 400;
+}
+
+.card {
+    width: 74px;
+    height: 73px;
+    margin-bottom: 25px;
+}
+
+.block {
+    width: 270px;
+}
+
+/*SECTION 2*/
+
+.section-two {
+    background-color: #343434;
+    background-image: url(/img/map.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.section-two-name {
+    padding-top: 100px;
+    font-size: 40px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+}
+
+.section-two-name-description {
+    font-size: 16px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 75px;
+    font-family: 'Ubuntu';
+    font-style: italic;
+    font-weight: 400;
+}
+
+.flex-boxes-container {
+    width: 940px;
+    height: 215px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.flex-box-one {
+    display: flex;
+    width: 455px;
+    height: 215px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name,
+.email,
+.subject {
+    width: 455px;
+    height: 51px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+}
+
+.flex-box-two {
+    display: flex;
+    width: 455px;
+    height: 215px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.message {
+    width: 455px;
+    height: 215px;
+    border-radius: 2px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    padding-left: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+}
+
+.button {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-size: 18px;
+    width: 240px;
+    height: 65px;
+    border-radius: 2px;
+    background-color: rgb(254, 209, 54);
+    outline: none;
+    padding: 0;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-style: bold;
+    font-weight: 700;
+}
