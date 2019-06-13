@@ -221,19 +221,19 @@
  
 
  input:focus:invalid {
-    border: 2px solid rgb(255,0,0);
+    outline: 2px solid rgb(255,0,0);
   }
   
   input:focus:valid {
-    border: 2px solid rgb(0,255,0);
+    outline: 2px solid rgb(0,255,0);
   }
   
   textarea:focus:invalid {
-    border: 2px solid rgb(255,0,0);
+    outline: 2px solid rgb(255,0,0);
   }
   
   textarea:focus:valid {
-    border: 2px solid rgb(0,255,0);
+    outline: 2px solid rgb(0,255,0);
   }
 
 
