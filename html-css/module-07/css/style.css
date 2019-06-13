@@ -69,7 +69,7 @@
 }
 
 .section-one-name-description {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Droid', serif;
     font-style: italic;
     font-weight: 400;
     font-size: 16px;
@@ -110,7 +110,7 @@
 .text {
     text-align: center;
     color: rgb(137, 137, 137);
-    font-family: 'Roboto Slab', serif
+    font-family: 'Roboto Slab', serif;
     font-style: normal;
     font-weight: 400;
 }
@@ -153,7 +153,7 @@
     text-align: center;
     color: rgb(255, 255, 255);
     margin-bottom: 75px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Droid', serif;
     font-style: italic;
     font-weight: 400;
 }
@@ -218,20 +218,22 @@
     padding-top: 20px;
 }
 
-  input:invalid:focus {
-    outline: 2px solid rgb(255,0,0);
-  }
-  
-  input:valid:focus {
-    outline: 2px solid rgb(0,255,0);
-  }
+ 
 
-  textarea:invalid:focus {
-    outline: 2px solid rgb(255,0,0);
+ input:focus:invalid {
+    border: 2px solid rgb(255,0,0);
   }
   
-  textarea:valid:focus {
-    outline: 2px solid rgb(0,255,0);
+  input:focus:valid {
+    border: 2px solid rgb(0,255,0);
+  }
+  
+  textarea:focus:invalid {
+    border: 2px solid rgb(255,0,0);
+  }
+  
+  textarea:focus:valid {
+    border: 2px solid rgb(0,255,0);
   }
 
 
