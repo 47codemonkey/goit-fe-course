@@ -325,7 +325,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 2px;
+  }
+
+  .ein, .zwei, .drei {
+      margin-right: 1px;
   }
 
   .social-link:hover {
