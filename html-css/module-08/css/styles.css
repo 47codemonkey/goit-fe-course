@@ -280,7 +280,7 @@ nav ul {
 
 @media screen and (min-width: 1440px){
 	.wrapper {
-	width: 1440px;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -288,6 +288,7 @@ nav ul {
 	background-image: url(../img/bg_top.png);
 	background-repeat: no-repeat;
 	padding-top: 50px;
+	background-size: cover;
 }
 
 header {
