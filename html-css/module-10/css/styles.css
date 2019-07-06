@@ -154,13 +154,13 @@
 }
 
 
-.service-description, .team-text {
+.section-one, .section-two {
 	text-align: center;
 	margin-bottom: 60px;
 	color: #333;
 }
 
-.service-description_span, .team-text_span  {
+.section-one__name, .section-two__name  {
 	display: inline-block;
 	font-size: 24px;
 	line-height: 29px;
@@ -168,14 +168,14 @@
 	margin-bottom: 20px;
 }
 
-.service-description_h2, .team-text_h2{
+.section-one__name_continuation, .section-two__name_team {
 	font-size: 30px;
 	line-height: 36px;
 	text-transform: uppercase;
 	font-family: 'Montserrat-Bold';
 }
 
-.service-description_h2--border::after {
+.section-one__name_continuation--border::after {
 	content: " ";
 	display: block;
 	margin: 0 auto;
@@ -184,7 +184,7 @@
 	margin-top: 40px;
 }
 
-.service {
+.services {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -200,7 +200,7 @@
 	padding-left: 20px;
 }
 
-.service_item {
+.services-items {
 	-ms-flex-preferred-size: 30%;
 	    flex-basis: 30%;
 	height: auto;
@@ -219,40 +219,40 @@
 	margin-bottom: 100px;
 }
 
-.service_item:nth-of-type(n + 4) {
+.services_items:nth-of-type(n + 4) {
 	margin-bottom: 0px;
 }
 
-.item-text {
+.services-items__description {
  	-ms-flex-preferred-size: 85%;
  	    flex-basis: 85%;
 }
 
-.service_item:first-of-type::before {
+.services-items:first-of-type::before {
 	content: url(../img/clock.svg);
 }
 
-.service_item:nth-of-type(2)::before {
+.services-items:nth-of-type(2)::before {
 	content: url(../img/web.svg);
 }
 
-.service_item:nth-of-type(3)::before {
+.services-items:nth-of-type(3)::before {
 	content: url(../img/tv.svg);
 }
 
-.service_item:nth-of-type(4)::before {
+.services-items:nth-of-type(4)::before {
 	content: url(../img/seo.svg);
 }
 
-.service_item:nth-of-type(5)::before {
+.services-items:nth-of-type(5)::before {
 	content: url(../img/home.svg);
 }
 
-.service_item:nth-of-type(6)::before {
+.services-items:nth-of-type(6)::before {
 	content: url(../img/digit.svg);
 }
 
-.item-text_h3 {
+.services-items__description-position {
 	text-transform: uppercase;
 	margin-bottom: 10px;
 	font-size: 14px;
@@ -260,7 +260,7 @@
 	font-family: 'Montserrat-Regular';
 }
 
-.item-text_p {
+.services-items__description-position_text {
 	color: #999999;
 	font-size: 15px;
 	line-height: 24px;
@@ -268,7 +268,7 @@
 }
 
 
-.team-text_h2--border::after {
+.section-two__name_team--border::after {
 	content: " ";
 	display: block;
 	margin: 0 auto;
@@ -277,7 +277,7 @@
 	margin-top: 40px;
 }
 
-.team-text_p {
+.section-two__name_team-text {
 	width: 75%;
 	margin: 0 auto;
 	color: #999999;
