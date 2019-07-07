@@ -617,18 +617,18 @@ nav {
   background-image: url(../images/icons/service6.svg);
 }
 
-.team-galery {
+.team-gallery {
   display: flex;
   justify-content: space-between;
 }
 
-.team-galery__card {
+.team-gallery__card {
   width: 380px;
   cursor: pointer;
   position: relative;
 }
 
-.team-galery__card-name {
+.team-gallery__card-name {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -638,7 +638,7 @@ nav {
   text-transform: uppercase;
 }
 
-.team-galery__card-occupation {
+.team-gallery__card-occupation {
   font-size: 15px;
   color: #999999;
   text-align: center;
@@ -655,13 +655,13 @@ nav {
   margin-bottom: 30px;
 }
 
-.team-galery__card-photo {
+.team-gallery__card-photo {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.team-galery__card-photo::after {
+.team-gallery__card-photo::after {
   content: '';
   position: absolute;
   left: 0;
@@ -672,20 +672,20 @@ nav {
   opacity: 0;
 }
 
-.team-galery__card-photo:hover .socials {
+.team-gallery__card-photo:hover .socials {
   opacity: 1;
   transition-duration: 0.2s;
   transition-timing-function: linear;
 }
 
-.team-galery__card-photo:hover {
+.team-gallery__card-photo:hover {
   transition-duration: 0.2s;
   transition-timing-function: linear;
   -webkit-transform: translate(-10px, -10px);
   transform: translate(-10px, -10px);
 }
 
-.team-galery__card-photo:hover::after {
+.team-gallery__card-photo:hover::after {
   opacity: 1;
   transition-duration: 0.2s;
   transition-timing-function: linear;
@@ -830,12 +830,12 @@ main {
     flex-wrap: wrap;
   }
 
-  .team-galery {
+  .team-gallery {
     flex-direction: column;
     align-items: center;
   }
 
-  .team-galery__card-occupation {
+  .team-gallery__card-occupation {
     padding-bottom: 20px;
   }
 }
@@ -877,7 +877,7 @@ main {
     min-height: 500px;
   }
 
-  .team-galery__card-photo:hover {
+  .team-gallery__card-photo:hover {
     transition-duration: 0.2s;
     transition-timing-function: linear;
     -webkit-transform: translate(0px, 0px);
@@ -895,7 +895,7 @@ main {
 }
 
 @media (max-width: 380px) {
-  .team-galery__card {
+  .team-gallery__card {
     width: 320px;
   }
 
@@ -904,18 +904,18 @@ main {
     height: 380px;
   }
 
-  .team-galery__card-photo {
+  .team-gallery__card-photo {
     width: 320px;
     height: 380px;
   }
 
-  .team-galery__card-photo::after {
+  .team-gallery__card-photo::after {
     width: 320px;
     height: 380px;
   }
 
-  .team-galery__card-photo,
-  .team-galery__card-img {
+  .team-gallery__card-photo,
+  .team-gallery__card-img {
     width: 320px;
     height: 380px;
   }
